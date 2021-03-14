@@ -36,3 +36,16 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+#logo {
+    height: 120px;
+    width: 120px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+#logo-text{
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
