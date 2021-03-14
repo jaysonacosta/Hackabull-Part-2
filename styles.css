@@ -18,20 +18,20 @@ body {
 
 #green-text {
     color: rgb(0, 209, 178);
-    font-weight: 700;
+    font-weight: 900;
     font-family: 'Nunito', sans-serif;
 }
 
 #blue-text {
     color: rgb(50, 115, 220);
     margin-left: 10px;
-    font-weight: 700;
+    font-weight: 900;
     font-family: 'Nunito', sans-serif;
 }
 
 #red-text {
     color: rgb(241, 70, 104);
     margin-left: 10px;
-    font-weight: 700;
+    font-weight: 900;
     font-family: 'Nunito', sans-serif;
 }

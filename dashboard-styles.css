@@ -5,9 +5,12 @@ body {
     height: 100vh;
     width: 100vw;
     background: linear-gradient(to top left, #65E5C2, #68A3F5, #FC66F0);
+    overflow: none;
 }
 
 .top-right-menu {
+    padding-top: 160px;
+    text-align: center;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -24,24 +27,33 @@ body {
 #toggle-sidebar {
     top: 100px;
     right: 40px;
-    width: 120px;
+    font-size: 21px;
+    color: rgb(0, 209, 178);
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
 }
 
 #preferences {
     top: 160px;
     right: 40px;
-    width: 120px;
+    font-size: 21px;
+    color: rgb(50, 115, 220);
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
 }
 
 #logout {
     top: 220px;
     right: 40px;
-    width: 120px;
+    font-size: 21px;
+    color: rgb(241, 70, 104);
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
 }
 
 #map {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 #panel {
@@ -80,3 +92,32 @@ a {
     text-decoration: none;
     color: cadetblue;
 }
+
+.nav-bar {
+    position: absolute;
+    display: flex;
+    padding: 32px;
+    height: 100vh;
+    width: 70%;
+    left: 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
+    backdrop-filter: blur(4px);
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+}
+
+.nav-bar section {
+    flex: 1;
+    padding: 15px;
+}
+
+.card {
+    height: 20%;
+    width: 50%;
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
